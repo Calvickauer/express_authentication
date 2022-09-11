@@ -18,6 +18,14 @@ router.post('/login', passport.authenticate('local', {
   failureFlash: 'Either email or password is incorrect' 
 }));
 
+router.get('/logout', (req, res) => {
+  req.logOut(() => {
+    console.log('logged out');
+  }); // logs the user out of the session
+  req.flash('success', 'Logging out... See you next time!');
+  res.redirect('/');
+});
+
 router.post('/signup', async (req, res) => {
   // we now have access to the user info (req.body);
   const { email, name, password } = req.body; // goes and us access to whatever key/value inside of the object
@@ -49,5 +57,6 @@ router.post('/signup', async (req, res) => {
         res.redirect('/auth/signup');
   }
 });
+
 
 module.exports = router;
