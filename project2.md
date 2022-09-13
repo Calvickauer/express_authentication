@@ -11,12 +11,12 @@ Fork & Clone this repo.
 - [ ] In this space below, list **THREE** ideas for your Project 2. For each idea, include [user stories](https://www.atlassian.com/agile/project-management/user-stories) for each idea and a link to the API(s) you want to use for it.
 
 --------------------------------------------------------
-1. 
-2. 
-3.
+1. CarFax -- Cars, Owners, Records [License Plate Detection and Recognition API]
+2. Ice Cream Shop -- Flavors, Locations, Sales [not sure yet]
+3. Boat rentals -- Boats, Lakes, Rentals [not sure yet]
 ---------------------------------------------------------
 
-- [ ] Make a PR when you're done!
+- [ok] Make a PR when you're done!
 
 ---
 
