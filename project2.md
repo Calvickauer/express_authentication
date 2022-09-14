@@ -11,9 +11,11 @@ Fork & Clone this repo.
 - [ ] In this space below, list **THREE** ideas for your Project 2. For each idea, include [user stories](https://www.atlassian.com/agile/project-management/user-stories) for each idea and a link to the API(s) you want to use for it.
 
 --------------------------------------------------------
-1. CarFax -- Cars, Owners, Records [License Plate Detection and Recognition API]
-2. Ice Cream Shop -- Flavors, Locations, Sales [not sure yet]
-3. Boat rentals -- Boats, Lakes, Rentals [not sure yet]
+
+1: carfax
+2: Restraunts
+3: Pet Adoption -- API: " https://www.adoptapet.com/public/apis/pet_list.html "
+
 ---------------------------------------------------------
 
 - [ok] Make a PR when you're done!
@@ -32,6 +34,9 @@ In the space below:
 
 ----------------------------------------------------------
 ### User Stories
+1: As a User I want to be able to see an image of the pets available for adoption
+2: As a user I want to see available animals based on location for easier searching
+3: As a user I want Suggested animals based on my prefrences
 
 ----------------------------------------------------------
 ### Wireframes
